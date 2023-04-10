@@ -109,10 +109,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.6.4/js/bootstrap-datepicker.min.js"></script>
 <script src="<?php echo SITE_URL; ?>/js/theme.js"></script>
-<script id="katalonTrafficAgent" async defer src="https://static.katalon.com/libs/traffic-agent/v1/traffic-agent.min.js" type="text/javascript"></script>
+<script id="katalonTrafficAgent" async defer src="https://static.staging.katalon.com/libs/traffic-agent/v1/traffic-agent.min.js" type="text/javascript"></script>
 <script type="text/javascript">
     document.getElementById('katalonTrafficAgent').addEventListener('load', () => {
-        startTrafficAgent("KA-743630-8") });
+        startTrafficAgent("KA-345643-3") });
 </script>
 </body>
 </html>
